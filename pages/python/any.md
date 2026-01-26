@@ -1,10 +1,10 @@
 # any
 
-> Return `True` if any element of an iterable are truthy.
+> Return `True` if any element of an iterable is truthy.
 > Note: Returns `False` if the iterable is empty.
 > More information: <https://docs.python.org/3/library/functions.html#any>.
 
-- Check if any value in an iterable are `True`:
+- Check if any value in an iterable is `True`:
 
 ```python
 any([False, True, False])
