@@ -1,5 +1,5 @@
 ---
-keywords: [open, read, write, append, close, with, encoding, readlines]
+keywords: [open, read, write, readlines]
 ---
 # file-io
 
