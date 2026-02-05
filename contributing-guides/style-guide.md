@@ -1,6 +1,6 @@
-# Style Guide
+# Style guide
 
-## Directory Structure
+## Directory structure
 
 Files should be grouped by programming language.
 
@@ -12,7 +12,7 @@ pages
   └ concurrency.md
 ```
 
-## Page Format
+## Page format
 
 Each page must follow this format:
 
@@ -22,7 +22,7 @@ Each page must follow this format:
 4.  **Examples:** A list of examples with descriptions.
 5.  **Code blocks:** Must use triple backticks with the **language identifier** (e.g., `python`, `rust`, `cpp`) to enable syntax highlighting in clients.
 
-### Example Template
+### Example template
 
 ````md
 # <topic>
