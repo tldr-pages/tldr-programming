@@ -166,4 +166,3 @@ User-provided values should use the `{{placeholder}}` syntax.
 *   If the placeholder represents a string in the code, keep the quotes **outside** the placeholder if syntax requires it.
     *   *Good:* `print("{{Hello World}}")`
     *   *Bad:* `print({{"Hello World"}})`
-    
