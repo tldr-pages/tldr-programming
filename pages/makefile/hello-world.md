@@ -1,3 +1,6 @@
+---
+keywords: [echo]
+---
 # hello-world
 
 > Basic syntax for defining a rule to print text.
