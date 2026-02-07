@@ -1,5 +1,5 @@
 ---
-keywords: [println]
+keywords: [println!]
 ---
 # hello-world
 

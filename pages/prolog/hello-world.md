@@ -1,5 +1,5 @@
 ---
-keywords: [write]
+keywords: [write, nl, halt]
 ---
 # hello-world
 
