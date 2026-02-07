@@ -1,3 +1,6 @@
+---
+keywords: [mov, syscall]
+---
 # hello-world
 
 > Basic syntax for printing text to standard output (x86_64 Linux via syscalls).
