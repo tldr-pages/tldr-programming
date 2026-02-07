@@ -51,7 +51,7 @@ def sync_single_page(
     """Sync a translation page.
 
     Args:
-        page (str): Relative page path, e.g. python/hello-world.md
+        relative_page_path (str): Relative page path, e.g. python/hello-world.md
         language_suffix (str): The suffix of the language, e.g. "nl" for Dutch
         dry_run (bool): If True, don't write to page
     """
@@ -103,7 +103,7 @@ def set_keywords(relative_page_path: str, keywords: list[str], dry_run: bool) ->
 
     Args:
         relative_page_path (Path): Relative path to the page, e.g. python/hello-world
-        keywords (list): List with keywords to set
+        keywords (list[str]): List with keywords to set
         dry_run (bool): If True, don't write to page
     """
     if not relative_page_path.endswith(".md"):
