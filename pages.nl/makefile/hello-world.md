@@ -1,3 +1,6 @@
+---
+keywords: [echo]
+---
 # hello-world
 
 > Basissyntax voor het definiëren van een regel om tekst te tonen.

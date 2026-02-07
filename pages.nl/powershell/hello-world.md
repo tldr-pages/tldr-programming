@@ -1,3 +1,6 @@
+---
+keywords: [Write-Host]
+---
 # hello-world
 
 > Basissyntax voor het tonen van tekst naar de standaarduitvoer.

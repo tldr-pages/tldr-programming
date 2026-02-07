@@ -1,3 +1,6 @@
+---
+keywords: [WriteLine]
+---
 # hello-world
 
 > Basissyntax voor het tonen van tekst naar de standaarduitvoer.

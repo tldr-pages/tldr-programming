@@ -1,3 +1,6 @@
+---
+keywords: [mov, syscall]
+---
 # hello-world
 
 > Basissyntax voor het tonen van tekst naar de standaarduitvoer (x86_64 Linux via syscalls).

@@ -1,3 +1,6 @@
+---
+keywords: [println]
+---
 # hello-world
 
 > Basissyntax voor het tonen van tekst naar de standaarduitvoer.
