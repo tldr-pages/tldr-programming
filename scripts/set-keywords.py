@@ -129,7 +129,7 @@ def _get_keywords(page_path: Path) -> str:
     Returns:
         str: The keyword line, e.g. "keywords: [print]"
     """
-    with open(page_path, "r") as f:
+    with open(page_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
     return lines[KEYWORDS_LINE_INDEX].strip()
 
@@ -143,10 +143,10 @@ def _update_keywords(page_path: Path, keywords_block: str) -> None:
     """
     keyword_line = _get_keywords(page_path)
 
-    with open(page_path, "r") as f:
+    with open(page_path, "r", encoding="utf-8") as f:
         original_text = f.read()
 
-    with open(page_path, "w") as f:
+    with open(page_path, "w", encoding="utf-8") as f:
         if not keyword_line.startswith("keywords:"):
             f.write(keywords_block + original_text)
         else:  # Keywords already exist, but need to be updated
