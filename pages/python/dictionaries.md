@@ -9,7 +9,7 @@ keywords: [dict, get, list, sorted]
 - Create a dictionary using keyword arguments:
 
 ```python
-dict({{key1}}={{value1}}, {{key2}}={{value2}}, ...)
+{ {{key1}}: {{value1}}, {{key2}}: {{value2}}, ...}} }
 ```
 
 - Add or update a value for a specific key:
