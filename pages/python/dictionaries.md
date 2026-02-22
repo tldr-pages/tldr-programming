@@ -51,5 +51,5 @@ sorted({{dict_name}})
 - Create a dictionary from a sequence of key-value tuples:
 
 ```python
-dict([("{{key1}}", {{value1}}), ("{{key2}}", {{value2}})])
+dict([("{{key1}}", {{value1}}), ("{{key2}}", {{value2}}), ...])
 ```
