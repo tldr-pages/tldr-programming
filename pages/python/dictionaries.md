@@ -6,7 +6,7 @@ keywords: [dict, get, list, sorted]
 > Manage data stored as key-value pairs.
 > More information: <https://docs.python.org/3/tutorial/datastructures.html#dictionaries>.
 
-- Create a dictionary using keyword arguments:
+- Create a dictionary:
 
 ```python
 { {{key1}}: {{value1}}, {{key2}}: {{value2}}, ...}} }
