@@ -1,2 +1,2 @@
 # tldr-programming
-TLDR pages for programming language functions
+TLDR pages for programming language concepts
