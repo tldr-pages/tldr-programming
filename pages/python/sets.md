@@ -36,7 +36,7 @@ set({{iterable}})
 {{set1}} | {{set2}}
 ```
 
-- Keep element that are in both sets:
+- Keep elements that are in both sets:
 
 ```python
 {{set1}} & {{set2}}
