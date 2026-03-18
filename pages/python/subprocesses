@@ -1,5 +1,5 @@
 ---
-keywords: []
+keywords: [subprocess]
 ---
 # subprocesses
 
@@ -11,4 +11,11 @@ keywords: []
 ```python
 import subprocess
 subprocess.run("{{program}}", {{"argument1", "argument2", ...}})
+```
+
+- Run a subprocess with shell features (pipes, wildcards, etc):
+
+```python
+import subprocess
+subprocess.run("{{command}}", shell=True)
 ```
