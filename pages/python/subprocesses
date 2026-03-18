@@ -3,7 +3,7 @@ keywords: [subprocess, run]
 ---
 # subprocesses
 
-> Launch subprocesses from python.
+> Launch subprocesses from Python.
 > More information: <https://docs.python.org/3/library/subprocess.html>.
 
 - Run a subprocess:
