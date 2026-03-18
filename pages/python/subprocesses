@@ -1,0 +1,14 @@
+---
+keywords: []
+---
+# subprocesses
+
+> Launch subprocesses from python.
+> More information: <https://docs.python.org/3/library/subprocess.html>.
+
+- Run a subprocess:
+
+```python
+import subprocess
+subprocess.run("{{program}}", {{"argument1", "argument2", ...}})
+```
