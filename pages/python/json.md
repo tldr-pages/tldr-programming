@@ -6,7 +6,7 @@ keywords: [dumps, dump, loads, load, open]
 > Encode and decode JSON data.
 > More information: <https://docs.python.org/3/tutorial/inputoutput.html#saving-structured-data-with-json>.
 
-- Prerequisites:
+### Prerequisites
 
 ```python
 import json
