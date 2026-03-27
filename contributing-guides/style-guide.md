@@ -52,6 +52,8 @@ code_snippet
 ```
 ````
 
+Example (`pages/python/json.md`):
+
 ````md
 ---
 keywords: [dumps, dump, loads, load, open]
