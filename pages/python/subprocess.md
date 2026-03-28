@@ -23,3 +23,9 @@ subprocess.run(["{{program}}", {{"argument1", "argument2", ...}}])
 ```python
 subprocess.run("{{command}}", shell=True)
 ```
+
+- Run a subprocess and return its `stdout`:
+
+```python
+output = subprocess.check_output(["{{program}}", {{"argument1", "argument2", ...}}])
+```
