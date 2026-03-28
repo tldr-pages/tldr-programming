@@ -1,5 +1,5 @@
 ---
-keywords: [run]
+keywords: [run, check_output]
 ---
 # subprocess
 
