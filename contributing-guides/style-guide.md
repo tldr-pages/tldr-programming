@@ -19,7 +19,8 @@ The basic format of each page should match the following template:
 2.  **Title**: The name of the topic.
 3.  **Description**: Short, snappy description.
 4.  **Links**: Link to official documentation.
-5.  **Examples**: A list of practical examples.
+5.  **Prerequisites (Optional)**: A dedicated `### Prerequisites` section for setup code (e.g., imports, includes) required for the examples.
+6.  **Examples**: A list of practical examples (maximum of 8).
 
 Template:
 
@@ -31,6 +32,12 @@ keywords: [function_name, method_name]
 
 > Short, snappy topic description.
 > More information: <https://example.com/documentation>.
+
+### Prerequisites
+
+```language
+setup_code
+```
 
 - Description of the first example:
 
@@ -45,30 +52,34 @@ code_snippet
 ```
 ````
 
-Example (`pages/python/file-io.md`):
+Example (`pages/python/json.md`):
 
 ````md
 ---
-keywords: [open, read, write, readlines]
+keywords: [dumps, dump, loads, load, open]
 ---
-# file-io
+# json
 
-> Reading and writing files using context managers.
-> More information: <https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files>.
+> Encode and decode JSON data.
+> More information: <https://docs.python.org/3/tutorial/inputoutput.html#saving-structured-data-with-json>.
 
-- Read a file line by line (memory efficient):
+### Prerequisites
 
 ```python
-with open("file.txt", "r", encoding="utf-8") as f:
-    for line in f:
-        print(line)
+import json
 ```
 
-- Read all lines into a list:
+- Parse a JSON string into a Python object:
 
 ```python
-with open("file.txt", "r", encoding="utf-8") as f:
-    lines = f.readlines()
+{{data}} = json.loads("{{json_string}}")
+```
+
+- Read JSON data from a text file:
+
+```python
+with open("{{file.json}}", "r", encoding="utf-8") as f:
+    {{data}} = json.load(f)
 ```
 ````
 
@@ -123,6 +134,11 @@ with open("file.txt", "w") as f:
 *   **Incorrect keywords:** `[close, with, file, io]` (Implicit or abstract concepts are excluded).
 
 ## General writing
+
+### Example limit
+
+- Each page is limited to a maximum of **8 functional examples**.
+- The optional `### Prerequisites` block is **excluded** from this count, as it only serves as setup boilerplate.
 
 ### Imperative Mood
 
