@@ -1,5 +1,5 @@
 ---
-keywords: [run]
+keywords: [run, check_output]
 ---
 # subprocess
 
@@ -22,4 +22,10 @@ subprocess.run(["{{program}}", {{"argument1", "argument2", ...}}])
 
 ```python
 subprocess.run("{{command}}", shell=True)
+```
+
+- Run a subprocess and capture its `stdout` as a string:
+
+```python
+output = subprocess.check_output(["{{program}}", {{"argument1", "argument2", ...}}], text=True)
 ```
