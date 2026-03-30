@@ -36,7 +36,7 @@ keywords: [function_name, method_name]
 ### Prerequisites
 
 ```language
-import module
+setup_code
 ```
 
 - Description of the first example:
