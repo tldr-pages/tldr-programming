@@ -20,7 +20,7 @@ int main()
 {
   int array[6] = { 5,9,2,10,1,7 };
   std::sort(std::begin(array), std::end(array), [](int a, int b) {
-    return {{condition}};
+    return {{true_if_a_belongs_before_b}};
   });
 }
 ```
@@ -32,8 +32,7 @@ int main()
 {
   int array[6] = { 5,9,2,10,1,7 };
   std::partition(std::begin(array), std::end(array), [](int a) {
-    return {{condition}};
+    return {{true_if_a_belongs_at_the_start}};
   });
 }
-
 ```
