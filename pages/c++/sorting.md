@@ -1,5 +1,5 @@
 ---
-keywords: [sort, partition]
+keywords: [sort, partition, begin, end]
 ---
 # sorting
 
