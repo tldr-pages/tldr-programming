@@ -9,7 +9,7 @@ keywords: [sort, partition]
 ### Prerequiresites
 
 ```cpp
-#import <algorithm>
+#include <algorithm>
 #include <iterator>
 ```
 
