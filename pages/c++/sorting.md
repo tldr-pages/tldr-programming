@@ -6,7 +6,7 @@ keywords: [sort, partition, begin, end]
 > Sort different elements based on conditions.
 > More information: <https://en.cppreference.com/w/cpp/header/algorithm.html>.
 
-### Prerequiresites
+### Prerequisites
 
 ```cpp
 #include <algorithm>
