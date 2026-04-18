@@ -1,6 +1,6 @@
 ### Basics
 - `hello-world`
-- `variables` (delaration, scopes, constants)
+- `variables` (declaration, scopes, constants)
 - `loops` (for, while, iterators)
 - `conditionals` (if, switch, match)
 - `type-casting` (converting string to int, float to int, etc.)
