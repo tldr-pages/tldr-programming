@@ -25,7 +25,7 @@ int main()
 }
 ```
 
-- Partition an array into two with 6 being the cutoff point:
+- Partition an array into two with smaller in front and with 6 being the cutoff point:
 
 ```cpp
 int main()
