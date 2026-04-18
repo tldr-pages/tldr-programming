@@ -13,7 +13,7 @@ keywords: [sort, partition, begin, end]
 #include <iterator>
 ```
 
-- Sort an array:
+- Sort an array from smallest to biggest:
 
 ```cpp
 int main()
