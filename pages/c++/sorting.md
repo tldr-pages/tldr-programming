@@ -25,14 +25,14 @@ int main()
 }
 ```
 
-- Partition an array into two from a cutoff point:
+- Partition an array into two with 6 being the cutoff point:
 
 ```cpp
 int main()
 {
   int array[6] = { 5,9,2,10,1,7 };
   std::partition(std::begin(array), std::end(array), [](int a) {
-    return {{true_if_a_belongs_at_the_start}};
+    return {{a < 6}};
   });
 }
 ```
