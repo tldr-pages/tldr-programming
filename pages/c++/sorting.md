@@ -30,7 +30,7 @@ int main()
 ```cpp
 int main()
 {
-  int array[6] = { 5,9,2,10,1,7 };
+  int array[] = { 5,9,2,10,1,7 };
   std::partition(std::begin(array), std::end(array), [](int a) {
     return {{a < 6}};
   });
