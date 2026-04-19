@@ -20,7 +20,7 @@
 ### Error handling
 - `exceptions` | `error-handling` (try/catch, panic/recover, Result types)
 ### Standard library & I/O
-- `file-io` (reading, writing, apending)
+- `file-io` (reading, writing, appending)
 - `json` (parsing, stringifying)
 - `http-requests` (GET, POST, headers)
 - `datetime` (formatting, parsing, timezones)
