@@ -24,7 +24,7 @@
 - `json` (parsing, stringifying)
 - `http-requests` (GET, POST, headers)
 - `datetime` (formatting, parsing, timezones)
-- `regex` (matching, replacing, capturing groups
+- `regex` (matching, replacing, capturing groups)
 - `math` (rounding, random, absolute)
 ### Concurrency & Async
 - `async-await` | `promises`
