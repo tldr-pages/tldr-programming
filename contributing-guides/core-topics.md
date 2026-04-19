@@ -8,7 +8,7 @@
 - `arrays` | `lists` | `slices`
 - `maps` | `dictionaries` | `hashmaps`
 - `sets`
-- `strings` (interpolation, spliting, joining, substrings)
+- `strings` (interpolation, splitting, joining, substrings)
 - `tuples` | `records` (if supported)
 - `sorting` (custom comparators, sorting by key)
 ### Functions & OOP
