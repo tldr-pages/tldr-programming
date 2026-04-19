@@ -6,7 +6,7 @@
 - `type-casting` (converting string to int, float to int, etc.)
 ### Data structures
 - `arrays` | `lists` | `slices`
--  `maps` | `dictionaries` | `hashmaps`
+- `maps` | `dictionaries` | `hashmaps`
 - `sets`
 - `strings` (interpolation, spliting, joining, substrings)
 - `tuples` | `records` (if supported)
