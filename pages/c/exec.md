@@ -34,7 +34,7 @@ waitpid(pid, NULL, 0);
 execlp("{{ls}}", "{{ls}}", "{{-l}}", NULL);
 ```
 
-- Run a program searching `PATH`, passing arguments as a `NULL`-terminated array:
+- Run a program searching `$PATH`, passing arguments as a `NULL`-terminated array:
 
 ```c
 // int execvp(const char *file, char *const argv[]);
