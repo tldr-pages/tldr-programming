@@ -26,6 +26,7 @@ if (pid == 0) {
 }
 waitpid(pid, NULL, 0);
 ```
+
 - Run a program searching `PATH`, passing arguments as a `NULL`-terminated list (`argv[0]` is the program name):
 
 ```c
