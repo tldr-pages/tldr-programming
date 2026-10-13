@@ -1,5 +1,5 @@
 ---
-keywords: [execlp, execvp, execve, perror, _exit, fork, waitpid]
+keywords: [execl, execlp, execvp, execve, perror, _exit, fork, waitpid]
 ---
 # exec
 
