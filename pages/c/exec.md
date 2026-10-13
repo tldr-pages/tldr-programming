@@ -50,5 +50,3 @@ char *args[] = {"{{env}}", NULL};
 char *env[] = {"{{VAR=value}}", NULL};
 execve("{{/usr/bin/env}}", args, env);
 ```
-
-
